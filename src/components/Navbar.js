@@ -14,8 +14,7 @@ const Navbar = () => {
         <ul className='md:flex hidden'>
             <li className='p-4'>Home</li>
             <li className='p-4'>About</li>
-            <li className='p-4'>Company</li>
-            <li className='p-4'>Resources</li>
+            <li className='p-4'>Courses</li>
             <li className='p-4'>Contact</li>
         </ul>
         <div onClick={handleNav} className='block md:hidden'>
@@ -27,8 +26,7 @@ const Navbar = () => {
             <ul className='pt-4 uppercase'>
             <li className='p-4 border-b border-gray-600'>Home</li>
             <li className='p-4 border-b border-gray-600'>About</li>
-            <li className='p-4 border-b border-gray-600'>Company</li>
-            <li className='p-4 border-b border-gray-600'>Resources</li>
+            <li className='p-4 border-b border-gray-600'>Courses</li>
             <li className='p-4'>Contact</li>
             </ul>
         </div>
