@@ -2,6 +2,7 @@
 import './App.css';
 import About from './components/About';
 import Cards from './components/Cards';
+import Review from './components/Review';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import Newsletter from './components/Newsletter';
@@ -16,6 +17,7 @@ function App() {
       <Services />
       <Newsletter />
       <Cards />
+      <Review />
     </div>
   );
 }

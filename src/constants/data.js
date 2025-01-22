@@ -11,6 +11,7 @@ import Specity2 from '../assets/specity1.png';
 import Specity3 from '../assets/specity3.png';
 import Specity4 from '../assets/specity4.png';
 import Specity5 from '../assets/specity5.png';
+import User from '../assets/user.png';
 
 
 export const ServiceData = [
@@ -48,4 +49,13 @@ export const ServiceData = [
 
     },
     
+]
+
+export const UserData = [
+    {
+        name: 'Sophia Jonas',
+        Personality: 'Student, National University',
+        backgroundImage: User,
+        },
+
 ]
