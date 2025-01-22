@@ -10,11 +10,11 @@ import {FreeMode, Pagination} from 'swiper/modules';
 import { RxArrowTopRight } from 'react-icons/rx';
 import { ServiceData } from '../constants/data';
 
-const Services = () => {
+const Courses = () => {
   return (
     <div className='flex items-center justify-center flex-col h-screen'>
-    <p className='text-[#00df9a] font-bold text-2xl'>Our Services</p>
-    <h1 className='md:text-2xl sm:text-2xl text-2xl py-4 text-white'>We Provide a Variety of Services</h1>
+    <p className='text-[#00df9a] font-bold text-2xl'>Our Courses</p>
+    <h1 className='md:text-2xl sm:text-2xl text-2xl py-4 text-white'>We Provide a Variety of Courses</h1>
         <Swiper
             breakpoints={{
                 340: {
@@ -58,4 +58,4 @@ const Services = () => {
   )
 }
 
-export default Services;
+export default Courses;

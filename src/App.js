@@ -6,7 +6,7 @@ import Review from './components/Review';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import Newsletter from './components/Newsletter';
-import Services from './components/Services';
+import Courses from './components/Courses';
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
       <Navbar/>
       <Hero />
       <About />
-      <Services />
+      <Courses />
       <Newsletter />
       <Cards />
       <Review />
